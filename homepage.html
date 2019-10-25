@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+		#background1{
+		<! background: url(ss.jpg); >
+		background-size: 1400px 800px;
+		background-repeat: no-repeat;
+		background-color: #FFFAF0;
+		}
+		.menu{
+			width:100%;
+			background: #AFEEEE;
+			overflow: auto;
+			}
+		.menu ul{
+			margin:0;
+			padding:0;
+			list-style:none;
+			line-height:60px;
+			}
+		.menu li{
+			float: left;
+			}
+		.menu ul li{
+			background: #48D1CC;
+			width:130px;
+			display:block;
+			text-align:center;
+			text-decoration:none;
+			color:#f2f2f2;
+			letter-spacing:0.5px;
+			font-family: fantasy;
+			font-size: 15px;
+			}
+	</style>
+	<script type="text/javascript"> 
+		function display_c(){
+		var refresh=1000; // Refresh rate in milli seconds
+		mytime=setTimeout('currentTime()',refresh)
+		}
+
+		function currentTime() {
+		var x = new Date()
+		document.getElementById('ct').innerHTML = x;
+		display_c();
+		 }
+	</script>
+	</head>
+	<meta charset="utf-8">
+	<title> SF.ANAA </title>
+	<span id='ct' ></span>
+	<body onload="currentTime()" id="background1" link="#FF00FF" vlink="#FFA07A">
+	<! vlink is for after clicking >
+		<! &nbsp is for spacing>
+	<nav class="menu">
+		<ul>
+			<li><a href="homepage.html">H O M E</a></li>
+			<li><a href="about.html">A B O U T (ME)</a></li>
+			<li><a href="video.html">V I D E O S (SONGS)</a></li>
+			<li><a href="photo.html">G A L L E R Y</a></li>
+			<li><a href="contact.html">C O N T A C T</a>
+		</ul>	
+	</nav>
+	<br>
+	<br><br><br><br>
+	<h3 align="center">
+		<font face="monospace" color="#CD853F">
+		<p> A &nbsp; W E B S I T E &nbsp; O F </p>
+	</h3><br>
+	<h1 align="center"> 
+		<font size=30px face="courier" color="#F08080">
+		S &yuml; A H D &iacute; A T &uuml; L 
+		F &agrave; R &auml; H A N &acirc; &nbsp;</font>
+	</h1>
+	<br><br>
+	<h3 align="center">
+		<font face="monospace" color="#CD853F">
+		<p> A kind of bliss; Do more of what you love &#128150;&#127804;</p>
+	</h3><br><br>
+	<table align="center">
+			<tr>
+			<td><a href="about.html"><img title="Syahdiatul's about" height="200px" width="200px" src="c.jpg"></td>
+			<td><a href="video.html"><img title="Videos" height="200px" width="200px" src="1.jpg"></td>
+			<td><a href="photo.html"><img title="Photos" height="200px" width="200px" src="p6.png"></td>
+			<td><a href="contact.html"><img title="Contact" height="200px" width="200px" src="p5.jpg"></td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
